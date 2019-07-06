@@ -16,4 +16,7 @@
         <item>@string/multiplicacion</item>
         <item>@string/division</item>
     </string-array>
+    <string name="error_1">Digite El Número Uno</string>
+    <string name="error_2">Digite El Número Dos</string>
+    <string name="error_div_0">Número dos no puede ser cero</string>
 </resources>

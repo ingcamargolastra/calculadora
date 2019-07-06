@@ -11,4 +11,7 @@
     <string name="resta">Sustract</string>
     <string name="multiplicacion">Multiply</string>
     <string name="division">Division</string>
+    <string name="error_2">Type Number Two</string>
+    <string name="error_1">Type Number One</string>
+    <string name="error_div_0">The Number One Can\'t Be Zero</string>
 </resources>
