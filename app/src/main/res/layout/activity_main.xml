@@ -32,12 +32,27 @@
         android:hint="@string/label_numero_dos"
         android:inputType="numberSigned|number|numberDecimal" />
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="calcular"
-        android:text="@string/calcular" />
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/limpiar" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="calcular"
+            android:text="@string/calcular" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/txtResultado"
